@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FIAP Labs",
+    "slug": "fiap-mdi-cp2-labs-app",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/fiap_logo.png",
+    "scheme": "fiaplabs",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A0A"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "br.com.fiap.labs"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0A"
+      },
+      "package": "br.com.fiap.labs"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
